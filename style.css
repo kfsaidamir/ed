@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;    
+    transition: .5s ease;
+}
+
+header {
+    padding: 10px 100px;
+    width: 100%;
+    height: 20vh;
+    background-color: orange;
+}
+
+body {
+    background-color: white;
+}
+
+.flag {
+    justify-content: space-around;
+    width: max-content;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+header > h1 {
+    margin-inline: auto;
+    color: white;
+}
+
+.flag > img {
+    position: absolute;
+    left: -30px;
+    width: 20px;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.logo > a{
+    font-weight: 520;
+    font-size: 32px;
+    margin: 70px;
+    text-decoration: none;
+    color:white;
+}
+
+.logo > a:hover {
+    color: black;
+}
+
+.mavzu {
+    padding: 10px 100px;
+    margin-top: 50px;
+}
+
+.mavzu > h1 {
+    color: #4d4f50;
+    font-size: 40px;
+    text-align: center;
+}
+
+.mavzu > h1:hover {
+    color: orange;
+}
+
+#section {
+    width: 100%;
+    height: max-content;
+}
+
+.mavzu > h2 {
+    letter-spacing: 1px;
+    margin-top: 30px;
+    color: #4d4f50;
+    
+}
+
+.mavzu > h2:hover {
+    color: rgb(0, 0, 0);
+}
+
+#section2 {
+    padding: 10px 100px;
+    margin-top: 90px;
+    width: 100%;
+    height: max-content;
+}
+
+.over > li {
+    font-weight: 550;
+    color: #4d4f50;
+    font-size: 20px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul > li:hover {
+    color: orange;
+}
+
+div> img {
+    height: 300px;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.over {
+    margin-top: 30px;
+    gap: 30px;
+    align-items: center;
+    display: flex;
+}
+
+#section2 > h1 {
+    margin-bottom: 30px;
+    color: #4d4f50;
+    text-align: center;
+}
+
+.nonvoychi {
+    width: 100%;
+    height: max-content;
+    margin-top: 50px;
+}
+
+.img {
+    margin-bottom: 50px;
+    width: 900px;
+    border-radius: 100%;
+    transition: .15sec ease;
+    margin-top: 20px;
+}
+
+.img:hover {
+    transform: rotate(360deg);
+}
+
+.non > p {
+    font-weight: 900;
+    font-size: 18px;
+    color: black;
+}
+
+.non > p:hover {
+    color: orange;
+}
+
+.non {
+    margin-bottom: 30px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    color: #4d4f50;
+    text-align: center;
+}
+
+span {
+    color: rgba(19, 18, 18, 0.842)
+}
+
+span:hover {
+    color: orange;
+} 
+
+footer {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 100px;
+    margin-top: 90px    ;
+    width: 100%;
+    height: 18vh;
+    background-color: orange;
+}
+
+a > img {
+    width: 70px;
+}
+
+footer >  .me  > h3 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.me > a {
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
