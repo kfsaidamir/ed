@@ -336,5 +336,19 @@ body {
 
 #xozir > img {
     width: 500px;
+}
 
+.img3 {
+    transition: .5s ease;
+}
+
+.img3:hover {
+    transform: scale(1.4);
+}
+
+#xozir > p {
+    margin-top: 30px;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
 }
