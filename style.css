@@ -352,3 +352,5 @@ body {
     font-size: 25px;
     font-weight: 600;
 }
+@media only screen and (max-width:600px) {
+}
